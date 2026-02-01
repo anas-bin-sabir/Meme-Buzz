@@ -137,6 +137,22 @@ header > h1 {
   margin-right: auto;
 }
 
+.instructions {
+  font-family: "Karla", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  max-width: 400px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  margin-top: 0;
+  color: white;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 5px;
+  padding: 10px;
+}
+
 .form {
   display: grid;
   grid-template: auto auto / 1fr 1fr;
@@ -167,6 +183,14 @@ header > h1 {
   font-family: "Karla", sans-serif;
 }
 
+.main-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .meme {
   position: relative;
   display: flex;
@@ -191,8 +215,15 @@ header > h1 {
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
-  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
-    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
     2px 2px 5px #000;
 }
 
